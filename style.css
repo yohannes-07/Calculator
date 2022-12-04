@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #c7c7df;
+    box-sizing: border-box;
+
+}
+
+.content{
+    padding: 100px 750px;
+    margin-bottom: 200px;
+
+  
+
+}
+h1{
+    color: rgb(223, 25, 52);
+    
+    text-shadow: 1px saddlebrown;  
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.container .display{
+    background-color: rgb(202, 192, 192);
+    margin: 10px;
+    height: 120px;
+    width: auto;
+}
+.display .write{
+    height: 70px;
+    width: auto;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.display .answer{
+   height: 50px ;
+   width: auto;
+   text-align: right;
+   font-size: 25px;
+   font-weight: 300;
+   padding-right: 5px;
+}
+ 
+.container .keys{
+    padding-top: 20px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin: 10px;
+    background-color: rgb(56, 54, 54);
+}
+.key{
+    background-color: rgb(56, 54, 54);
+    border:none;
+    padding-left: 1px;
+
+}
+
+.container{
+    background-color: rgb(56, 54, 54);
+    padding: 5px;
+    border-radius: 20px;
+    width: 20rem;
+    height: 30rem;
+}
+.btn{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #c7c7df;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(235, 239, 250, 0.897);
+    transform: scale(1.1);
+}
+
+
+footer{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(9, 48, 85);
+    padding-top: 5px;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: -20px;
+    
+    
+    
+}
+footer .github{
+    display: inline-block;
+    margin: 5px 20px;
+
+}
+footer div{
+    background-color: rgb(9, 48, 85);
+}
+footer div h4{
+    margin: 5px 20px;
+    background-color: rgb(9, 48, 85);
+}
